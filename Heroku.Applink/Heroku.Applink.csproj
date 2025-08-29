@@ -1,0 +1,29 @@
+<Project Sdk="Microsoft.NET.Sdk">
+  <PropertyGroup>
+    <TargetFramework>net8.0</TargetFramework>
+    <ImplicitUsings>enable</ImplicitUsings>
+    <Nullable>enable</Nullable>
+    <GenerateDocumentationFile>true</GenerateDocumentationFile>
+    <AssemblyName>Heroku.Applink</AssemblyName>
+    <RootNamespace>Heroku.Applink</RootNamespace>
+    <PackageId>Heroku.Applink</PackageId>
+    <Version>1.0.0</Version>
+    <Title>Heroku Applink SDK (.NET)</Title>
+    <Description>Applink SDK for Heroku Apps.</Description>
+    <Authors>heroku</Authors>
+    <Company>Salesforce.com, Inc.</Company>
+    <Product>Heroku Applink</Product>
+    <PackageTags>Heroku;Salesforce</PackageTags>
+    <PackageLicenseExpression>BSD-3-Clause</PackageLicenseExpression>
+    <PackageReadmeFile>README.md</PackageReadmeFile>
+    <RepositoryType>git</RepositoryType>
+    <PackageRequireLicenseAcceptance>false</PackageRequireLicenseAcceptance>
+  </PropertyGroup>
+  <ItemGroup>
+    <PackageReference Include="CsvHelper" Version="30.0.1" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="README.md" Pack="true" PackagePath="." />
+    <None Include="../../LICENSE" Pack="true" PackagePath="." />
+  </ItemGroup>
+</Project>

@@ -1,0 +1,43 @@
+# .NET build artifacts
+bin/
+obj/
+**/bin/
+**/obj/
+
+# Visual Studio/IDE
+.vs/
+.idea/
+.vscode/
+*.suo
+*.user
+*.userosscache
+*.sln.docstates
+*.DotSettings.user
+
+# OS / tooling noise
+.DS_Store
+Thumbs.db
+
+# Test results & coverage
+TestResults/
+*.coverage
+*.coveragexml
+.coverage/
+
+# Packages & outputs
+packages/
+*.nupkg
+*.snupkg
+nupkg/
+**/nupkg/
+
+# Logs
+*.log
+
+# Resharper
+_ReSharper*/
+*.[Rr]e[Ss]harper
+
+# Environment files (secrets)
+.env
+.env.*
