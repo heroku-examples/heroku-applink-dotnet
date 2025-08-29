@@ -8,7 +8,7 @@ Add the project to your solution or package it as needed. The library targets `n
 
 ## Usage
 
-```
+```csharp
 using Heroku.Applink;
 using Heroku.Applink.Models;
 
